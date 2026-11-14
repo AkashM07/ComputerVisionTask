@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "splits": {
+    "train": 3500,
+    "validation": 500,
+    "test": 1000
+  },
+  "image_count": 5000,
+  "page_width": 595,
+  "page_height": 842,
+  "a4_note": "Portrait A4 proportions, approximately 210:297; no physical DPI specified.",
+  "margin_pixels": 16,
+  "target_digit_height_range": [
+    40,
+    300
+  ],
+  "height_note": "Requested OpenCV text height; actual tight ink height is bbox_height.",
+  "fonts": [
+    "simplex",
+    "duplex",
+    "complex",
+    "triplex",
+    "plain"
+  ],
+  "opencv_version": "4.12.0",
+  "numpy_version": "2.2.6",
+  "bbox_convention": "Top-left origin; x right, y down; x_max/y_max exclusive. All pixels <255 count as ink.",
+  "unique_page_hashes": 5000
+}
